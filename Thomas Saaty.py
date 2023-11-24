@@ -1,6 +1,6 @@
 def main():
     try:
-        n = int(input("Введите количество критериев: "))
+        n = int(input("Введите количество критериев (число в целом формате): "))
     except ValueError:
         print("! Ошибка ! Введите правильное значение")
         return
@@ -11,7 +11,11 @@ def main():
                 a[i][j] = 1.00
             else:
                 print("Введите отношение критерия", i+1 , "к критерию", j+1,"(число в десятичном формате)")
-                a[i][j] = float(input())
+                try:
+                    a[i][j] = float(input())
+                except ValueError:
+                    print("! Ошибка ! Введите правильное значение")
+                    return  
     sums = ves(a,n)
     for i in range(n):
         print(round(sums[i], 2))
