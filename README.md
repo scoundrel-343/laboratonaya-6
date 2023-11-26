@@ -15,6 +15,7 @@
 # Инструкция по работе
 Программа получает на ввод количество критериев, данные попарного сравнения критериев, реализует метод анализа иерархий Томаса Саати для одного уровня и выводит весовые коэффициенты в виде 0.00.
 
-![image](https://github.com/scoundrel-343/laboratonaya-6/assets/146209505/bee977d8-4b62-44d2-bcf4-6871b733bd99)
-![image](https://github.com/scoundrel-343/laboratonaya-6/assets/146209505/0bfbe229-21c2-4069-9b8b-0ed7f5f7c6f7)
+![image](https://github.com/scoundrel-343/laboratonaya-6/assets/146209505/dc9a0722-82c3-481c-9e9a-a722e39397fc)
+![image](https://github.com/scoundrel-343/laboratonaya-6/assets/146209505/2ad13f99-c67a-475d-9daf-ab112476a6c7)
+
 
